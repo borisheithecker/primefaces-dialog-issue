@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue May 23 08:29:52 CEST 2017:
+Booten von Derby-Version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): Instanz a816c00e-015c-33ff-5af0-000019ffa290
+für Datenbankverzeichnis /home/boris/PublicNetBeansProjects/nbpayara-demo/application/target/nbpayarademo/nbpayarademo/demo-domain/lib/databases/ejbtimer mit Class Loader ModuleCL@1d40937d[org.nbpayara.nbpayara]
+Geladen aus jar:file:/home/boris/PublicNetBeansProjects/nbpayara-demo/application/target/nbpayarademo/extra/modules/ext/org.nbpayara.nbpayara/fish-payara-extras/payara-embedded-all.jar!/
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_131-b11
+user.dir=/home/boris/PublicNetBeansProjects/nbpayara-demo/application
+os.name=Linux
+os.arch=amd64
+os.version=3.19.0-32-generic
+derby.system.home=null
+Datenbank-Class Loader wurde gestartet - derby.database.classpath=''
