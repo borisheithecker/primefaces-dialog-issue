@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+    <h:head>
+        <title>Dialog</title>
+        <style type="text/css">
+            .ui-widget {
+                font-size: 90%;
+            }
+        </style>
+    </h:head>
+
+    <h:body>
+
+        <h:form>
+
+            <p:selectOneRadio value="#{dfDialogView.selectedItem}" layout="pageDirection" >
+                <f:selectItems value="#{dfDialogView.items}" var="item"
+                               itemValue="#{item}"/>
+                <p:ajax listener="#{configRepNotes.selectRadioItem}" />
+            </p:selectOneRadio>
+
+            <p:commandButton value="Do something"  actionListener="#{dfDialogView.onButtonClick}" />
+
+        </h:form>
+
+    </h:body>
+
+</html>
